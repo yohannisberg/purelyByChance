@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+.footerWrapper {
+  background-color: #f3f2eb;
+  width: 100vw;
+  z-index: 12;
+  border-top: 1px gray solid;
+  font-family: 'Playfair Display SC', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px; }
+
+.footerPic {
+  width: 140px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-right: 15px; }
+
+.footerCopyright {
+  position: absolute;
+  bottom: 10px; }
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+body {
+  font-family: 'Playfair Display SC', sans-serif; }
+
+.homeWrapper {
+  display: flex;
+  flex-direction: column; }
+
+.mainLogo {
+  position: relative;
+  margin-top: 10px; }
+
+.missionStatementWrapper {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 606px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.missionStatement {
+  width: 75%;
+  font-family: 'Playfair Display SC', sans-serif;
+  text-align: center; }
+
+.mainLogoWrapper {
+  display: flex;
+  justify-content: center; }
+
+.missionStatementText {
+  font-size: 20px;
+  color: #666;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.main3ImagesWrapper {
+  display: flex;
+  flex-direction: row; }
+
+.main3Images {
+  width: 33.3333333333%; }
+
+.main3oneImage {
+  width: 100%;
+  height: auto; }
+
+.mainBorder {
+  border: 1px gray solid;
+  margin-bottom: 40px; }
+
+.watchUs {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #666; }
+
+.heroPhoto {
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  height: 550px;
+  overflow: hidden; }
+
+.heroPhoto img {
+  transform: translateY(-13%); }
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+.navBarWrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 56px;
+  background: #f3f2eb;
+  z-index: 10;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display SC', sans-serif;
+  border-bottom: 1px gray solid; }
+
+.navBarContentsWrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 85%; }
+
+.navTitleWrapper {
+  font-size: 26px;
+  width: 33%; }
+
+.navMenu {
+  display: flex;
+  width: 75%;
+  justify-content: space-around; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=maps/styles.css.map */

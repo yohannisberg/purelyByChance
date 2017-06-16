@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
+
+body{
+  font-family: 'Playfair Display SC', sans-serif;
+}
+
+.homeWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLogo{
+  position: relative;
+  margin-top:10px;
+}
+
+.missionStatementWrapper{
+  height:auto;
+  width:100%;
+  background-color: white;
+  position: absolute;
+  top:606px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.missionStatement{
+  width:75%;
+  font-family: 'Playfair Display SC', sans-serif;
+  text-align:center;
+}
+
+.mainLogoWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.missionStatementText{
+  font-size:20px;
+  color:#666;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+.main3ImagesWrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.main3Images{
+  width:33.3333333333%;
+}
+
+.main3oneImage{
+  width:100%;
+  height:auto;
+}
+
+.mainBorder{
+  border: 1px gray solid;
+  margin-bottom:40px;
+}
+
+.watchUs{
+  margin-bottom:20px;
+  font-size:22px;
+  color:#666;
+}
