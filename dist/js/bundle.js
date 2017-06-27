@@ -8,8 +8,23 @@ angular.module('purelyByChance', ["ui.router"]).config(["$stateProvider", "$urlR
         url: '/',
         templateUrl: './views/home.html',
         controller: 'homeCtrl'
+    }).state('about', {
+        url: '/about',
+        templateUrl: './views/about.html',
+        controller: 'aboutCtrl'
+    }).state('schedule', {
+        url: '/schedule',
+        templateUrl: './views/schedule.html',
+        controller: 'scheduleCtrl'
+    }).state('contact', {
+        url: '/contact',
+        templateUrl: './views/contact.html',
+        controller: 'contactCtrl'
     });
 }]);
+'use strict';
+
+angular.module('purelyByChance').controller('aboutCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
 'use strict';
 
 angular.module('purelyByChance').controller('homeCarouselCtrl', ["$scope", function ($scope) {}]);

@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+.aboutWrapper {
+  width: 100%; }
+
+.heroAboutPhoto {
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  height: 550px;
+  overflow: hidden; }
+
+.heroAboutPhoto img {
+  transform: translateY(-13%); }
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
 .footerWrapper {
   background-color: #f3f2eb;
   width: 100vw;
@@ -116,6 +130,11 @@ body {
   display: flex;
   width: 75%;
   justify-content: space-around; }
+
+.navLinks a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #666; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
