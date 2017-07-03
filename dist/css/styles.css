@@ -1,16 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
 .aboutWrapper {
-  width: 100%; }
+  display: flex;
+  justify-content: center; }
+
+.about {
+  margin-top: 56px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.about2 {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around; }
 
 .heroAboutPhoto {
-  position: absolute;
-  top: 56px;
-  width: 100%;
-  height: 550px;
-  overflow: hidden; }
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left; }
+
+.heroAboutPhoto2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right; }
 
 .heroAboutPhoto img {
-  transform: translateY(-13%); }
+  width: 100%; }
+
+.heroAboutPhoto2 img {
+  width: 100%; }
+
+.aboutAbsoluteFooter {
+  position: absolute; }
+
+.aboutSummary {
+  width: 50%;
+  float: right;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 14px; }
+
+.aboutSummary2 {
+  width: 50%;
+  float: left;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  margin-right: 14px; }
 
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
 .footerWrapper {
@@ -133,8 +179,25 @@ body {
 
 .navLinks a {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none; }
+
+.colorInit {
   color: #666; }
+
+.color1 {
+  color: black;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased; }
+
+.color2 {
+  color: #666;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased; }
+
+.color3 {
+  color: #666;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -182,5 +245,24 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+.iframeCalendarWrapper {
+  margin-top: 36px;
+  width: 100%;
+  height: auto; }
+
+.iframeCalendar {
+  display: flex;
+  justify-content: center; }
+
+.view-container-border {
+  background-color: red; }
+
+.scheduleTitle {
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 72px;
+  margin-top: 70px;
+  text-align: center; }
 
 /*# sourceMappingURL=maps/styles.css.map */

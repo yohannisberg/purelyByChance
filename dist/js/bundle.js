@@ -44,6 +44,9 @@ angular.module('purelyByChance').controller('homeCtrl', ["$scope", "mainService"
 }]);
 'use strict';
 
+angular.module('purelyByChance').controller('scheduleCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
+'use strict';
+
 angular.module('purelyByChance').directive('footer', function () {
     return {
         restrict: "AE",

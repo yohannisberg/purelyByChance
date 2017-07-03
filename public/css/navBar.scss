@@ -39,5 +39,26 @@
 .navLinks a{
   cursor:pointer;
   text-decoration: none;
+}
+
+.colorInit{
   color: #666;
+}
+
+.color1{
+  color: black;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.color2{
+  color: #666;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.color3{
+  color: #666;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
 }
