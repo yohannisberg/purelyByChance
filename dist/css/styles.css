@@ -59,6 +59,42 @@
   margin-right: 14px; }
 
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+.emailWrapperFlex {
+  display: flex;
+  justify-content: center; }
+
+.emailWrapper {
+  margin-top: 56px;
+  width: 40%; }
+
+.contactInputs {
+  display: flex;
+  flex-direction: column; }
+
+.regInput {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: initial;
+  border-image: initial; }
+
+.messageInput {
+  width: 100%;
+  height: 140px;
+  border-color: black; }
+
+.inputTitles {
+  font-family: 'Playfair Display SC', sans-serif; }
+
+.submitInput {
+  background-color: #c4c4c4;
+  color: #444;
+  border: 0;
+  padding: 5px 10px;
+  width: 50px;
+  cursor: pointer; }
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
 .footerWrapper {
   background-color: #f3f2eb;
   width: 100vw;
@@ -185,19 +221,13 @@ body {
   color: #666; }
 
 .color1 {
-  color: black;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased; }
+  text-shadow: #666 0px 0px 0.25px; }
 
 .color2 {
-  color: #666;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased; }
+  text-shadow: #666 0px 0px 0.25px; }
 
 .color3 {
-  color: #666;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased; }
+  text-shadow: #666 0px 0px 0.25px; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126

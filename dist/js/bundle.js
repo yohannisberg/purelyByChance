@@ -27,6 +27,9 @@ angular.module('purelyByChance', ["ui.router"]).config(["$stateProvider", "$urlR
 angular.module('purelyByChance').controller('aboutCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
 'use strict';
 
+angular.module('purelyByChance').controller('contactCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
+'use strict';
+
 angular.module('purelyByChance').controller('homeCarouselCtrl', ["$scope", function ($scope) {}]);
 'use strict';
 
