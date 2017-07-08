@@ -1,6 +1,33 @@
 <nav-bar></nav-bar>
 
 <div class='emailWrapperFlex'>
+
+<div class='mapWrapper'>
+<div class='mapLeftAddress'>Purely By Chance<br>
+1955 N. Bustle Creek Road<br>
+Alta, WY 83414</div>
+
+<div class='mapLeftEmailPhone'>andy@purelybychance.com | 307-699-3129<br>
+sue@purelybychance.com | 208-351-0421</div>
+
+<h1>My First Google Map</h1>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjaozYm5wWDry3OU0MSierhts2nD0yuLI&=myMap"></script>
+
+</div>
+
 <div class='emailWrapper'>
 
 <form class='contactInputs' action="https://formspree.io/jdagos3@gmail.com"

@@ -59,17 +59,33 @@
   margin-right: 14px; }
 
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
+.mapWrapper {
+  float: left;
+  width: 42.5%; }
+
+.mapLeftAddress {
+  margin-top: 118px;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 22px; }
+
+.mapLeftEmailPhone {
+  margin-top: 32px;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 15px; }
+
 .emailWrapperFlex {
   display: flex;
   justify-content: center; }
 
 .emailWrapper {
   margin-top: 56px;
-  width: 40%; }
+  width: 42.5%;
+  float: right; }
 
 .contactInputs {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 8%; }
 
 .regInput {
   width: 100%;
