@@ -283,7 +283,67 @@
 .watchUs {
   margin-bottom: 20px;
   font-size: 22px;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.watchUs h1 {
+  font-size: 12px; }
+
+.watchUsTitle {
+  color: #666;
+  font-size: 23px;
+  margin-bottom: 20px; }
+
+.youtubeVideoWrapper {
+  height: 100%; }
+
+.foodterra {
+  width: 135px;
+  margin-right: 5%; }
+
+.justPicked {
+  width: 100px;
+  margin-left: 5%; }
+
+.foodterraLogosFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin: 15px; }
+
+.instaWrapper {
+  position: absolute;
+  height: 100%;
+  width: 75%; }
+
+.instaTitleBackground {
+  font-family: 'Playfair Display SC', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 35px; }
+
+.instaTitleBackground a {
+  text-decoration: none;
   color: #666; }
+
+.instaTitle {
+  font-size: 18px;
+  background: #f3f2eb;
+  width: 234px;
+  padding: 10px;
+  border: 1px #666 solid;
+  text-align: center; }
+
+.instaFeed {
+  width: 75%;
+  border: 0;
+  overflow: hidden; }
 
 .heroPhoto {
   position: absolute;
