@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
 
 .aboutWrapper{
   // height: 400px;
@@ -10,8 +14,9 @@
 .about{
   // position: absolute;
   // top:56px;
-  margin-top:56px;
-  width: 85%;
+  margin-top:76px;
+  // width: 85%;
+  width:1180px;
   // height: 390px;
   display: flex;
   justify-content: center;
@@ -21,11 +26,11 @@
 .about2{
   // position: absolute;
   // top:56px;
-  width: 85%;
-  // height: 390px;
+  // width: 85%;
+  width: 1180px;
+  height: 480px;
   display: flex;
   justify-content: center;
-  align-items: center;
   justify-content: space-around;
 }
 
@@ -60,19 +65,77 @@
 }
 
 .aboutSummary{
-  width:50%;
-  float: right;
-  font-family: 'Playfair Display SC', sans-serif;
+  width:62%;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 23px;
   text-align: center;
   margin-left:14px;
+  margin: 30px;
+}
+
+.aboutSummary div{
+  padding:30px;
+  font-size: 21px;
+  color:#666;
 }
 
 .aboutSummary2{
   width:50%;
-  float: left;
-  font-family: 'Playfair Display SC', sans-serif;
-  font-size: 23px;
-  text-align: center;
-  margin-right:14px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  // text-align: justify;
+  color:#666;
+  letter-spacing: .3px;
+  background: rgb(243, 242, 235);
+  padding: 90px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  border: 1px #666 solid;
+}
+
+.aboutSummary .aboutTitle{
+  font-size:30px;
+  text-decoration: underline;
+  padding:50px 20px 0px 20px;
+  color: black;
+}
+
+.aboutPicWrapperFlex{
+  display: flex;
+  justify-content: center;
+  margin: auto 0px 20px 0px;
+}
+
+.aboutPicWrapper{
+  width:1180px;
+  height: 580px;
+}
+
+.aboutPic{
+  background-image: url("../images/purely4.jpg");
+  background-position: center;
+  background-size: 1180px;
+  height:100%;
+}
+
+.aboutRightPicsWrapper{
+  height: 480px;
+  width: 390px;
+}
+
+.rightImage1{
+  background-image: url("../images/purely2.jpg");
+  background-position: center;
+  background-size: 480px;
+  height:230px;
+  margin-bottom:20px
+}
+
+.rightImage2{
+  background-image: url("../images/purely3.jpg");
+  background-position: center;
+  background-size: 480px;
+  height:230px;
 }

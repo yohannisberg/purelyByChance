@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
 
+.scheduleWrapper2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scheduleWrapper{
+  width:85%;
+}
+
 .iframeCalendarWrapper{
   // position: absolute;
   margin-top:36px;
@@ -23,4 +34,40 @@
   font-size: 72px;
   margin-top: 70px;
   text-align: center;
+  margin-bottom:10px;
+}
+
+.scheduleBorderWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.scheduleBorder{
+  border: 1px gray solid;
+  margin-bottom: 40px;
+  margin-top:40px;
+  width:90%;
+}
+
+.scheduleSub{
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 28px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:10px;
+  color:#666;
+}
+
+.scheduleTourWrapper{
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 35px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:10px;
+  color:#666;
+}
+
+.scheduleTourWrapper a{
+  text-decoration: none;
+  color: red;
 }

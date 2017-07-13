@@ -27,7 +27,22 @@ angular.module('purelyByChance', ["ui.router"]).config(["$stateProvider", "$urlR
 angular.module('purelyByChance').controller('aboutCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
 'use strict';
 
-angular.module('purelyByChance').controller('contactCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
+angular.module('purelyByChance').controller('contactCtrl', ["$scope", "mainService", function ($scope, mainService) {
+
+  $scope.initMap = function () {
+    var uluru = { lat: 43.7821, lng: -111.01999999999998 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  };
+
+  $scope.initMap();
+}]);
 'use strict';
 
 angular.module('purelyByChance').controller('homeCarouselCtrl', ["$scope", function ($scope) {}]);

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
-
 .mapWrapper{
   float:left;
   width: 42.5%;
@@ -7,14 +5,15 @@
 
 .mapLeftAddress{
   margin-top:118px;
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 22px;
 }
 
 .mapLeftEmailPhone{
   margin-top:32px;
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 15px;
+  line-height: 20px;
 }
 
 .emailWrapperFlex{
@@ -32,6 +31,8 @@
   display: flex;
   flex-direction: column;
   padding: 8%;
+  height: 100%;
+  justify-content: center;
 
 //   -webkit-appearance: textarea;
 // background-color: white;
@@ -76,4 +77,14 @@ border: 0;
 padding: 5px 10px;
 width:50px;
 cursor: pointer;
+}
+
+#map{
+  height:330px;
+  width:100%;
+  margin-top:75px;
+}
+
+.mapLink{
+  cursor: pointer;
 }
