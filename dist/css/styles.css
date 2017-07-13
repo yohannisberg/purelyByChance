@@ -122,7 +122,8 @@
   margin-top: 32px;
   font-family: 'Playfair Display', sans-serif;
   font-size: 15px;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-bottom: 50px; }
 
 .emailWrapperFlex {
   display: flex;
@@ -137,8 +138,13 @@
   display: flex;
   flex-direction: column;
   padding: 8%;
-  height: 100%;
   justify-content: center; }
+
+.contactInputs input {
+  padding: 5px; }
+
+.contactInputs textarea {
+  padding: 5px; }
 
 .regInput {
   width: 100%;
@@ -166,10 +172,32 @@
 #map {
   height: 330px;
   width: 100%;
-  margin-top: 75px; }
+  margin-top: 20px; }
 
 .mapLink {
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+  font-family: 'Playfair Display', sans-serif; }
+
+.contactInstruct {
+  background: #f3f2eb;
+  margin: 8% 8% 0% 8%;
+  border: 1px #666 solid; }
+
+.contactTopWrapper {
+  padding: 8% 8% 0% 8%;
+  font-family: 'Playfair Display', sans-serif;
+  letter-spacing: .3px;
+  color: #666;
+  line-height: 23px; }
+
+.contactInstructTitle {
+  font-size: 17px; }
+
+.contactTopWrapper li a {
+  text-decoration: none;
+  color: red; }
 
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i");
 .footerWrapper {
