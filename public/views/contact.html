@@ -10,14 +10,16 @@ Alta, WY 83414</div>
 <div class='mapLeftEmailPhone'>andy@purelybychance.com | 307-699-3129<br>
 sue@purelybychance.com | 208-351-0421</div>
 
-<a href="https://www.google.com/maps/dir//1955+N.+Bustle+Creek+Road+Alta,+WY+83414/@33.6455512,-111.9343636,15z" class='mapLink'>
+<a href="https://www.google.com/maps/dir//1955+N.+Bustle+Creek+Road+Alta,+WY+83414/@33.6455512,-111.9343636,15z" class='mapLink' target="_blank">
+Click here for directions
+</a>
+
 <div id="map">
 
 <!-- {{map}} -->
 <!-- {{marker}} -->
 
 </div>
-</a>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjaozYm5wWDry3OU0MSierhts2nD0yuLI&=myMap"></script>
 
@@ -25,19 +27,30 @@ sue@purelybychance.com | 208-351-0421</div>
 
 <div class='emailWrapper'>
 
+  <div class='contactInstruct'>
+
+    <div class='contactTopWrapper'>
+    <div class='contactInstructTitle'>Send us a message regarding</div>
+      <li>Our products</li>
+      <li>Scheduling a farm tour</li>
+      <li>An upcoming event (see our schedule <a ui-sref='schedule'>here</a>)</li>
+      <li>Anything else!</li>
+    </div>
+
 <form class='contactInputs' action="https://formspree.io/jdagos3@gmail.com"
         method="POST">
       <div class='inputTitles'>NAME:</div>
-      <input class='regInput' type="text" name="name"><br>
+      <input class='regInput' type="text" name="name" required><br>
 
       <div class='inputTitles'>EMAIL:</div>
-      <input class='regInput' type="email" name="_replyto"><br>
+      <input class='regInput' type="email" name="_replyto" required><br>
 
       <div class='inputTitles'>MESSAGE:</div>
-      <textarea class='messageInput' type="text" name="message"></textarea><br>
+      <textarea class='messageInput' type="text" name="message" required></textarea><br>
       <input class='submitInput' type="submit" value="Send">
 </form>
 
+</div>
 </div>
 </div>
 

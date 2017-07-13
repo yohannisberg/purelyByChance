@@ -90,7 +90,8 @@
   background-image: url("../images/purely4.jpg");
   background-position: center;
   background-size: 1180px;
-  height: 100%; }
+  height: 100%;
+  border: 1px #666 solid; }
 
 .aboutRightPicsWrapper {
   height: 480px;
@@ -101,13 +102,15 @@
   background-position: center;
   background-size: 480px;
   height: 230px;
-  margin-bottom: 20px; }
+  margin-bottom: 15.5px;
+  border: 1px #666 solid; }
 
 .rightImage2 {
   background-image: url("../images/purely3.jpg");
   background-position: center;
   background-size: 480px;
-  height: 230px; }
+  height: 230px;
+  border: 1px #666 solid; }
 
 .mapWrapper {
   float: left;
@@ -116,7 +119,8 @@
 .mapLeftAddress {
   margin-top: 118px;
   font-family: 'Playfair Display', sans-serif;
-  font-size: 22px; }
+  font-size: 22px;
+  line-height: 25px; }
 
 .mapLeftEmailPhone {
   margin-top: 32px;
@@ -141,10 +145,14 @@
   justify-content: center; }
 
 .contactInputs input {
-  padding: 5px; }
+  padding: 5px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 13px; }
 
 .contactInputs textarea {
-  padding: 5px; }
+  padding: 5px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 13px; }
 
 .regInput {
   width: 100%;
@@ -159,7 +167,8 @@
   border-color: black; }
 
 .inputTitles {
-  font-family: 'Playfair Display SC', sans-serif; }
+  font-family: 'Playfair Display SC', sans-serif;
+  margin-bottom: 1px; }
 
 .submitInput {
   background-color: #c4c4c4;
@@ -330,6 +339,9 @@
   text-shadow: #666 0px 0px 0.25px; }
 
 .color3 {
+  text-shadow: #666 0px 0px 0.25px; }
+
+.color4 {
   text-shadow: #666 0px 0px 0.25px; }
 
 /* http://meyerweb.com/eric/tools/css/reset/

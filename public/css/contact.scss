@@ -7,6 +7,7 @@
   margin-top:118px;
   font-family: 'Playfair Display', sans-serif;
   font-size: 22px;
+  line-height: 25px;
 }
 
 .mapLeftEmailPhone{
@@ -14,6 +15,7 @@
   font-family: 'Playfair Display', sans-serif;
   font-size: 15px;
   line-height: 20px;
+  margin-bottom:50px;
 }
 
 .emailWrapperFlex{
@@ -31,7 +33,7 @@
   display: flex;
   flex-direction: column;
   padding: 8%;
-  height: 100%;
+  // height: 100%;
   justify-content: center;
 
 //   -webkit-appearance: textarea;
@@ -48,6 +50,18 @@
 // border-color: initial;
 // border-image: initial;
 // padding: 2px;
+}
+
+.contactInputs input{
+  padding:5px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size:13px;
+}
+
+.contactInputs textarea{
+  padding:5px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size:13px;
 }
 
 .regInput{
@@ -67,6 +81,7 @@
 
 .inputTitles{
   font-family: 'Playfair Display SC', sans-serif;
+  margin-bottom:1px;
 }
 
 
@@ -82,9 +97,35 @@ cursor: pointer;
 #map{
   height:330px;
   width:100%;
-  margin-top:75px;
+  margin-top:20px;
 }
 
 .mapLink{
   cursor: pointer;
+  text-decoration: none;
+  color: red;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.contactInstruct{
+  background: rgb(243, 242, 235);
+  margin:8% 8% 0% 8%;
+  border:1px #666 solid;
+}
+
+.contactTopWrapper{
+  padding:8% 8% 0% 8%;
+  font-family: 'Playfair Display', sans-serif;
+  letter-spacing: .3px;
+  color: #666;
+  line-height: 23px;
+}
+
+.contactInstructTitle{
+  font-size:17px;
+}
+
+.contactTopWrapper li a{
+  text-decoration: none;
+  color: red;
 }
