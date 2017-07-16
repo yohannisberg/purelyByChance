@@ -1,6 +1,7 @@
 angular.module('purelyByChance').directive('navBar', function () {
     return {
         restrict: "AE",
-        templateUrl: "./views/navBar.html"
+        templateUrl: "./views/navBar.html",
+        controller: "navBarCtrl"
     }
 });

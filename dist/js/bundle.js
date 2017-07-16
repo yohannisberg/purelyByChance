@@ -24,6 +24,44 @@ angular.module('purelyByChance', ["ui.router"]).config(["$stateProvider", "$urlR
 }]);
 'use strict';
 
+angular.module('purelyByChance').directive('footer', function () {
+    return {
+        restrict: "AE",
+        templateUrl: "./views/footer.html"
+    };
+});
+'use strict';
+
+angular.module('purelyByChance').directive('homeCarousel', function () {
+    return {
+        restrict: "AE",
+        templateUrl: "./views/homeCarousel.html"
+        // controller: "homeCarouselCtrl",
+    };
+});
+'use strict';
+
+angular.module('purelyByChance').directive('navBar', function () {
+    return {
+        restrict: "AE",
+        templateUrl: "./views/navBar.html",
+        controller: "navBarCtrl"
+    };
+});
+'use strict';
+
+angular.module('purelyByChance').service('mainService', ["$http", function ($http) {
+
+  // this.getPhotos = () => {
+  //   return $http.get('https://api.instagram.com/v1/users/1593657206/?access_token=1593657206.1677ed0.0c451f973228483e87890e69c1da1cc5').then(function(response) {
+  //     console.log('OU',response)
+  //     return response.data;
+  //   })
+  // };
+
+}]);
+'use strict';
+
 angular.module('purelyByChance').controller('aboutCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
 'use strict';
 
@@ -62,42 +100,19 @@ angular.module('purelyByChance').controller('homeCtrl', ["$scope", "mainService"
 }]);
 'use strict';
 
-angular.module('purelyByChance').controller('scheduleCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
-'use strict';
+angular.module('purelyByChance').controller('navBarCtrl', ["$scope", "mainService", function ($scope, mainService) {
 
-angular.module('purelyByChance').directive('footer', function () {
-    return {
-        restrict: "AE",
-        templateUrl: "./views/footer.html"
-    };
-});
-'use strict';
+  $scope.mobileMen = true;
 
-angular.module('purelyByChance').directive('homeCarousel', function () {
-    return {
-        restrict: "AE",
-        templateUrl: "./views/homeCarousel.html"
-        // controller: "homeCarouselCtrl",
-    };
-});
-'use strict';
-
-angular.module('purelyByChance').directive('navBar', function () {
-    return {
-        restrict: "AE",
-        templateUrl: "./views/navBar.html"
-    };
-});
-'use strict';
-
-angular.module('purelyByChance').service('mainService', ["$http", function ($http) {
-
-  // this.getPhotos = () => {
-  //   return $http.get('https://api.instagram.com/v1/users/1593657206/?access_token=1593657206.1677ed0.0c451f973228483e87890e69c1da1cc5').then(function(response) {
-  //     console.log('OU',response)
-  //     return response.data;
-  //   })
-  // };
-
+  $scope.showMobileMenu = function () {
+    if ($scope.mobileMen == true) {
+      $scope.mobileMen = false;
+    } else if ($scope.mobileMen == false) {
+      $scope.mobileMen = true;
+    }
+  };
 }]);
+'use strict';
+
+angular.module('purelyByChance').controller('scheduleCtrl', ["$scope", "mainService", function ($scope, mainService) {}]);
 //# sourceMappingURL=bundle.js.map

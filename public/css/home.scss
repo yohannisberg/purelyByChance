@@ -10,6 +10,58 @@
 //   font-family: 'Zilla Slab', sans-serif;
 // }
 
+@media only screen and (max-device-width: 414px){
+
+.missionStatementText{
+  font-size:42px;
+  color:#666;
+  margin-top:40px;
+  margin-bottom:40px;
+  letter-spacing: .4px;
+}
+
+.watchUsTitle{
+  color: #666;
+  font-size:42px;
+  margin-bottom:20px;
+}
+
+.instaTitle{
+  font-size:42px;
+  background: rgb(243, 242, 235);
+  width:575px;
+  padding:10px;
+  border: 1px #666 solid;
+  text-align: center;
+}
+}
+
+@media only screen and (min-device-width: 415px){
+
+  .missionStatementText{
+    font-size:20px;
+    color:#666;
+    margin-top:40px;
+    margin-bottom:40px;
+    letter-spacing: .4px;
+  }
+
+  .watchUsTitle{
+    color: #666;
+    font-size:23px;
+    margin-bottom:20px;
+  }
+
+  .instaTitle{
+    font-size:18px;
+    background: rgb(243, 242, 235);
+    width:234px;
+    padding:10px;
+    border: 1px #666 solid;
+    text-align: center;
+  }
+}
+
 .homeWrapper{
   display: flex;
   flex-direction: column;
@@ -43,14 +95,6 @@
   justify-content: center;
 }
 
-.missionStatementText{
-  font-size:20px;
-  color:#666;
-  margin-top:40px;
-  margin-bottom:40px;
-  letter-spacing: .4px;
-}
-
 .main3ImagesWrapper{
   display: flex;
   flex-direction: row;
@@ -74,4 +118,65 @@
   margin-bottom:20px;
   font-size:22px;
   color:#666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // width: 30%;
+  // float:left;
+}
+
+.watchUs h1{
+  font-size:12px;
+}
+
+.youtubeVideoWrapper{
+  // width:70%;
+  height:100%;
+  // float:right;
+}
+
+.foodterra{
+  width:135px;
+  margin-right:5%;
+}
+
+.justPicked{
+  width:100px;
+  margin-left: 5%;
+}
+
+.foodterraLogosFlex{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  align-items: center;
+  margin:15px;
+}
+
+.instaWrapper{
+  position: absolute;
+  height:100%;
+  width: 75%;
+}
+
+.instaTitleBackground{
+  font-family: 'Playfair Display SC', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin-bottom:35px;
+}
+
+.instaTitleBackground a{
+  text-decoration: none;
+  color: #666;
+}
+
+.instaFeed{
+  width: 75%;
+  border: 0;
+  overflow: hidden;
+  // height: 100%;
 }

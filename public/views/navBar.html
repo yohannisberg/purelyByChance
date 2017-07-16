@@ -3,6 +3,19 @@
 
 <div class='navBarContentsWrapper'>
 <div class='navTitleWrapper'>
+
+<div class='menuThreeLines' ng-click='showMobileMenu()'>☰</div>
+<div class='mobileMenuWrapper' ng-hide='mobileMen'>
+
+<div class='navLinks'><a class='colorInit borderMobile' ui-sref='about'>ABOUT</a></div>
+<div class='navLinks'><a class='colorInit borderMobile' ui-sref='schedule'>SCHEDULE</a></div>
+<div class='navLinks'><a class='colorInit borderMobile' ui-sref='contact'>CONTACT</a></div>
+<div class='navLinks'><a class='colorInit borderMobile' ui-sref='blog' target='_blank'>BLOG</a></div>
+
+<div ng-click='showMobileMenu()' class='mobileX'>close ✕</div>
+
+</div>
+
 <div class='navLinks'><a class='colorInit' ui-sref='home'>Purely By Chance Farm</a></div>
 </div>
 
