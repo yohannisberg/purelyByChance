@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
 
+
+@media only screen and (max-device-width: 414px){
+
 .footerWrapper{
   background-color: #f3f2eb;
   width:100vw;
@@ -10,6 +13,26 @@
   justify-content: center;
   align-items: center;
   margin-top:45px;
+  font-size: 28px;
+}
+
+}
+
+@media only screen and (min-device-width: 415px){
+
+  .footerWrapper{
+    background-color: #f3f2eb;
+    width:100vw;
+    z-index: 12;
+    border-top: 1px gray solid;
+    font-family: 'Playfair Display SC', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:45px;
+    font-size: 16px;
+  }
+
 }
 
 .footerPic{

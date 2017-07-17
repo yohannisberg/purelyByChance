@@ -1,5 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i');
 
+@media only screen and (max-device-width: 414px){
+
+  .scheduleTitle{
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 72px;
+    margin-top: 142px;
+    text-align: center;
+    margin-bottom:10px;
+  }
+
+  .scheduleSub{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 42px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom:10px;
+    color:#666;
+  }
+
+  .scheduleTourWrapper{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom:10px;
+    color:#666;
+  }
+
+  .scheduleBorder{
+    border: 1px gray solid;
+    margin-bottom: 80px;
+    margin-top:80px;
+    width:90%;
+  }
+
+  .scheduleTourWrapper{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom:34%;
+    color:#666;
+  }
+
+}
+
+@media only screen and (min-device-width: 415px){
+
+  .scheduleTitle{
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 72px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom:10px;
+  }
+
+  .scheduleSub{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom:10px;
+    color:#666;
+  }
+
+  .scheduleBorder{
+    border: 1px gray solid;
+    margin-bottom: 40px;
+    margin-top:40px;
+    width:90%;
+  }
+
+  .scheduleTourWrapper{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom:10px;
+    color:#666;
+  }
+
+}
+
 .scheduleWrapper2{
   display: flex;
   justify-content: center;
@@ -29,42 +112,9 @@
   background-color: red;
 }
 
-.scheduleTitle{
-  font-family: 'Playfair Display SC', sans-serif;
-  font-size: 72px;
-  margin-top: 70px;
-  text-align: center;
-  margin-bottom:10px;
-}
-
 .scheduleBorderWrapper{
   display: flex;
   justify-content: center;
-}
-
-.scheduleBorder{
-  border: 1px gray solid;
-  margin-bottom: 40px;
-  margin-top:40px;
-  width:90%;
-}
-
-.scheduleSub{
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 28px;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom:10px;
-  color:#666;
-}
-
-.scheduleTourWrapper{
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 35px;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom:10px;
-  color:#666;
 }
 
 .scheduleTourWrapper a{
